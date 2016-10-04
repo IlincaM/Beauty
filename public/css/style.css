@@ -1,0 +1,255 @@
+html{
+  height:100%;
+  min-height:100%;
+}
+body{
+    background: black;
+  
+}
+.titlePage {
+    color:red;
+    font: 200 50px/1.3 'Great Vibes', Helvetica, sans-serif;
+}
+.articles{
+    color: #000;
+    line-height: 1.25em;
+    text-align: justify;
+    
+    text-indent: 2.5em;
+    background: hsla(0,0%,100%,0.3);
+}
+.allPost{
+      background: hsla(0,0%,100%,0.3);
+  
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.pArticleBody{
+        color: beige;
+    font-size: 1em;
+    line-height: 1.25em;
+    text-align: justify;
+    
+    text-indent: 2.5em;
+    background: hsla(0,0%,100%,0.3);
+   
+    border: #aad4e5 0px;
+  
+}
+.subtitle{
+    text-align: center;
+    font: 200 50px/1.3 'Great Vibes', Helvetica, sans-serif;
+    color: #7d99a5;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+    position: absolute;
+    bottom: 0px;
+    top: 341px;
+    left: 523px;
+
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:white;
+}
+/*.dropdown{
+    margin-top: 15px;
+    
+}*/
+.me{
+    margin-left: 15px;
+/*    text-transform: uppercase;*/
+/*    text-shadow: 1px 1px 1px #000;*/
+    color: #fff;
+    font-size: 24px;
+    float: left;
+    border-bottom:1px solid rgba(221, 221, 221, 0);
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 170px;
+   /*height: 85px;*/
+    z-index: 12;
+    background: transparent url(../images/overlay.png) no-repeat bottom right;
+    -moz-box-shadow: 0px 0px 2px #000 inset;
+    -webkit-box-shadow: 0px 0px 2px #000 inset;
+    box-shadow: 0px 0px 2px #000 inset;
+
+}
+/*
+ for default - too short - size 
+@media all and (max-width: 319px) {
+    
+    body{
+    background: url("../images/fashion.jpg"); 
+   background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+        background-size: 200px 150px;
+        min-height:100%;
+}
+}
+
+@media all and (max-width: 639px) and (min-width: 320px) {
+    
+    body{
+    background: url("../images/fashion.jpg"); 
+   background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+        background-size: 382px 641px;
+}
+}
+
+@media all and (max-width: 799px) and (min-width: 640px) {
+   
+    body{
+    background: url("../images/fashion.jpg"); 
+   background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+        background-size: 640px 480px;
+}
+}
+
+@media all and (max-width: 1023px) and (min-width: 800px) {
+   
+    body{
+    background: url("../images/fashion.jpg"); 
+   background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+        background-size: 800px 600px;
+}
+}
+
+ this one goes for default images - bigger sizes 
+@media all and (min-width: 1024px) {
+    
+    body{
+    background: url("../images/fashion.jpg"); 
+   background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover;
+   
+}
+}*/
+.btn-h1-spacing{
+    margin-top: 18px;
+}
+
+.form-spacing-top{
+    margin-top: 30px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.background-wrap {
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+#video-bg-elem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+.video-bg-elem1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 110%;
+  min-height: 100%;
+
+}
+.hid {
+    display: none;
+}
+
+.comment {
+    margin-bottom: 45px;
+}
+
+.author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.author-name {
+    float:left;
+    margin-left: 15px;
+}
+
+.author-name>h4 {
+    margin: 5px 0px;
+}
+
+.author-name>p {
+    font-size: 11px;
+    font-style: italic;
+    color: #aaa;
+}
+
+.comment-content {
+    clear: both;
+    margin-left: 65px;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+.comment-count {
+    margin-bottom: 45px;
+}
+
+.backend-comments {
+    margin-top: 50px;
+}
+
+#a01 {
+  height: 35px;
+
+}
+
+.wrappers {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  background-color: #d9d9d9;
+  border-radius: 22px;
+  opacity: 0.8;
+}
+
+.wrappersC {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: rgba(234, 212, 113, 0.5);
+  border-radius: 22px;
+  opacity: 0.8;
+}

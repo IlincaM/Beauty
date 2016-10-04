@@ -1,0 +1,63 @@
+.carousel{
+    max-width: 100%;
+    
+
+}
+.carousel-indicators{
+    right:50px;
+    list-style: none;
+    position: absolute;
+}
+.carousel-indicators li {
+    float:left;
+    height:20px;
+    width:22px;
+    background:url(../images/bullet_1.png) top;
+    cursor: pointer;
+    zoom:.6;
+}
+.carousel-indicators li:hover{
+    background:url(../images/bullet_1.png) bottom;
+}
+.carousel-indicators li.active {
+    background:url(../images/bullet_1.png) bottom;
+}
+.carousel-item {
+    display: none;
+}
+
+.carousel-item img{
+    height:100%;
+    width:118%;
+}
+
+.carousel-item.active {
+    display:block;
+}
+
+.navigation-btn{
+    cursor:pointer;
+    position: absolute;
+    top:50%;
+    height:33px;
+    width:41px;
+}
+.navigation-btn.left{
+    background:url(../images/arrows.png) left;
+}
+.navigation-btn.right{
+    background:url(../images/arrows.png) right;
+}
+.carousel-item-caption{
+    position: absolute;
+    left: 0px;
+    bottom:-27%;
+    background-color: #f7f7f7;
+    opacity: .7;
+}
+.left {
+    left:0;
+}
+.right {
+    right:0px;
+}
