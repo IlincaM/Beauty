@@ -31,7 +31,9 @@ class CreateCommentsTable extends Migration {
      * @return void
      */
     public function down() {
-        Schema::dropForeign(['post_id']);
+        Schema::table('comments', function($table) {
+            $table->dropForeign(['post_id']);
+        });
         Schema::drop('comments');
     }
 

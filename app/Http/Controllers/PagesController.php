@@ -14,4 +14,7 @@ class PagesController extends Controller
     public function getAboutMe() {
         return view ('pages.aboutMe');
     }
+    public function getContact(){
+        return view('pages.contact');
+    }
 }

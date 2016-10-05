@@ -4,6 +4,7 @@
 
 
 @section('content')
+<h1 class="subtitle">Stay fabulous</h1>
 @foreach($posts as $post)
 @if($post["type_of_article"]===3)
  <div class="container-fluid">
@@ -18,7 +19,7 @@
             </article>
             <hr>
             <p>{{  str_limit($post->body, 270, "(...)") }} </p> 
-            <a  href="{{ url('blog/'.$post->slug) }} " class="btn btn-info btn-xs" >Read More</a>
+            <a  href="{{ url('blog/'.$post->slug) }} " class="btn btn-color white btn-xs" >Read More</a>
         </div>
         
         

@@ -94,7 +94,7 @@
                 {{ Form::label('comment', 'Comment') }}
                 {{ Form::textarea('comment', null, ['rows' => '5', 'class' => 'form-control']) }}
 
-                {{ Form::submit('Add Comment', ['class' => 'btn btn-success btn-block form-spacing-top']) }}
+                {{ Form::submit('Add Comment', ['class' => 'btn btn-color white btn-block form-spacing-top']) }}
             </div>
         </div>
 

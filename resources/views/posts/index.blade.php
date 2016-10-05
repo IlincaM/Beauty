@@ -10,7 +10,7 @@
     </div>
 
     <div class='col-md-2'>
-        <a href='{{ route('posts.create') }}' class='btn btn-lg btn-block btn-primary btn-h1-spacing'>Create new post</a>
+        <a href='{{ route('posts.create') }}' class='btn btn-lg btn-block btn-color white btn-h1-spacing'>Create new post</a>
     </div>
     <div class='col-md-12'>
         <hr>
@@ -19,8 +19,8 @@
 
 <div class='row'>
     <div class='col-md-12'>
-        <table  class='table table-hover allPost'>
-            <thead>
+        <table  class='table  allPost'>
+            <thead class="white">
             <th>#</th>
             <th>Title</th>
             <th>Body</th>
@@ -28,7 +28,7 @@
             <th></th>
             </thead>
             
-            <tbody>
+            <tbody class="white">
                 @foreach($posts as $post)
                 <tr>
                     <th>{{ $post->id }}</th>

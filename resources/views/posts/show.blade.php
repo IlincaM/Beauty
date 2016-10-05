@@ -6,14 +6,14 @@
 <div class="row">
     <div class="col-md-8">
         
-        <h1>{{ $post->title }}</h1>
-        <p class='lead'>{{ $post->body }}</p>
+        <h1 class="white">{{ $post->title }}</h1>
+        <p class='lead white'>{{ $post->body }}</p>
 
         <div id="backend-comments">
-            <h3>Comments : <small>{{ $post->comments()->count() }} total</small></h3>
+            <h3 class="white">Comments : <small>{{ $post->comments()->count() }} total</small></h3>
             <table class="table">
                 <thead>
-                    <tr>
+                    <tr class="white">
                         <th>Name</th>
                         <th>Email</th>
                         <th>Comments</th>
@@ -21,9 +21,9 @@
                     </tr>
                 </thead>
                 
-                <tbody>
+                <tbody class="white">
                     @foreach ($post->comments as $comment)
-                    <tr>
+                    <tr class="white">
                         <td>{{ $comment->name }}</td>
                         <td>{{ $comment->email }}</td>
                         <td>{!! $comment->comment !!}</td>
@@ -44,17 +44,15 @@
     <div class="col-md-4">
         <div class="well">
             <dl class="dl-horizontal">
-                <label>URL:</label>
-                <p><a href="{{url($post->slug)}}">{{url($post->slug)}}</a></p>
-            </dl>
-            
-            <dl class="dl-horizontal">
                 <label>Created At:</label>
                 <p>{{ date('M j, Y h:ia',strtotime($post->created_at))  }}</p>
             </dl>
             <dl class="dl-horizontal">
                 <label>Last Updated:</label>
                 <p>{{date('M j, Y h:ia',strtotime($post->updated_at) ) }}</p>
+            </dl>
+            <dl class="dl-horizontal">
+                <a href="{{ action('PostController@index') }}"><span><<< See All Posts</span></a> 
             </dl>
             <hr>
             <div class="row">

@@ -38,7 +38,7 @@ class AuthController extends Controller
 
         return redirect()->intended('/');
     }
-//    protected $redirectTo = '/';
+    protected $redirectTo = '/';
 
     /**
      * Create a new authentication controller instance.

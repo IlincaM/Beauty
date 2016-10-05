@@ -65,6 +65,16 @@
                         </span>
                     </a>
                 </li>
+                <li class="blur">
+                    <a href="{{ action('PagesController@getContact') }}">
+                        <img src="{{URL::asset('images/envelope.jpg')}}" alt=""/>
+                        <span class="sdt_active"></span>
+                        <span class="sdt_wrap">
+                            <span class="sdt_link">Contact Me</span>
+                            <span class="sdt_descr">Write to me</span>
+                        </span>
+                    </a>
+                </li>
             </ul>
             @if(Auth::check() && Auth::user()->isAdmin())
             <ul class=" nav navbar-nav navbar-right me ">
