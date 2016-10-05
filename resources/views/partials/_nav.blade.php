@@ -7,7 +7,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Beauty Blog</a>
+            <a class="navbar-brand" href="/">
+                <img alt="Brand" src="{{ URL::to('images/logo.jpg') }}" style="margin-top: -4px;width: 44px">
+
+            </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul id="sdt_menu" class="nav navbar-nav sdt_menu ">
