@@ -13,7 +13,7 @@
 
         <div class="col-sm-12 col-md-12 articles">
             <article>
-                <h2 class="text-center">{{$post->title}}</h2>
+                <h2 class="text-center white">{{$post->title}}</h2>
 
 
             </article>
