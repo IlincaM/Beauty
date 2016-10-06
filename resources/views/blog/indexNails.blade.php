@@ -18,7 +18,7 @@
 
             </article>
             <hr>
-            <p>{{  str_limit($post->body, 270, "(...)") }} </p> 
+            <p class="white">{{  str_limit($post->body, 270, "(...)") }} </p> 
             <a  href="{{ url('blog/'.$post->slug) }} " class="btn btn-color white btn-xs" >Read More</a>
         </div>
         
