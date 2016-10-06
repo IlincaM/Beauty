@@ -21,7 +21,7 @@ class AdminMiddleware
         }
         else {
             return response()
-                ->view('admin.forbidden')
+                ->view('auth.forbidden')
                 ->header('Content-Type', 'text/html');
         }
     }

@@ -1,0 +1,14 @@
+body{
+   background-color: black;
+}
+.interzis{
+    color: wheat;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px
+}
+.interzisTitle{
+    color:red;
+    font-size: 65px;
+    text-align: center;
+}
