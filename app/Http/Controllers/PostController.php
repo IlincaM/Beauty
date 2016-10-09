@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Post;
 use Session;
-use App\Services\Pagination;
 
 class PostController extends Controller {
 
@@ -15,24 +14,12 @@ class PostController extends Controller {
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request) {
+    public function index() {
         //create a variable and store all the blog posts in it from the database
-//        $posts = Post::paginate(4)->appends($request->get('page'));
-//Get current page form url e.g. &page=6
-        $currentPage = \Illuminate\Pagination\LengthAwarePaginator::resolveCurrentPage();
+        $posts = Post::orderBy('id', 'desc')->paginate(4);
 
-        $posts2=Post::all();
-        
-        //Slice the collection to get the items to display in current page
-        $currentPageSearchResults = $posts2->slice(($currentPage - 1) * 4, 4)->all();
-
-
-        //Create our paginator and pass it to the view
-        $posts = new \Illuminate\Pagination\LengthAwarePaginator($currentPageSearchResults, count($posts2), 4);
-        $posts->setPath($request->url());
-        $posts->appends($request->except(['page']));
         //return a view and pass in  the above variable
-        return view('posts.index')->with('posts',$posts);
+        return view('posts.index')->withPosts($posts);
     }
 
     /**
@@ -148,33 +135,4 @@ class PostController extends Controller {
         return redirect()->route('posts.index');
     }
 
-    /**
-     * This method is responsible for paginating the array of objects received as a parameter. 
-     * 
-     * @param array $post --> represents an array of objects (articles for the blog section)
-     * @param array $op --> the array of options for the query
-     * @param Request $request
-     * @author Bianca Moncea <bianca.moncea@evozon.com>
-     * 
-     * @return array of objects representing the paginated articles for each page
-     */
-    public function paginateArticles($post, $op, Request $request)
-    {
-
-        //Get current page form url e.g. &page=6
-        $currentPage = \Illuminate\Pagination\LengthAwarePaginator::resolveCurrentPage();
-
-        
-        
-        //Slice the collection to get the items to display in current page
-        $currentPageSearchResults = Post::slice(($currentPage - 1) * 4, 4)->all();
-
-
-        //Create our paginator and pass it to the view
-        $posts = new \Illuminate\Pagination\LengthAwarePaginator($currentPageSearchResults, count(Post::all()), 4);
-//        $this->paginatedSearchResults->setPath($request->url());
-        $posts->appends($request->except(['page']));
-
-        return $this->paginatedSearchResults;
-    }
 }
