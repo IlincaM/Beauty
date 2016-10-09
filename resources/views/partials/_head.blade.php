@@ -20,6 +20,7 @@
     <script type="text/javascript" src=" {{ URL::asset('js/jquery.easing.1.3.js') }}"></script>
 
     <link rel="stylesheet" href="{{ URL::asset('css/styleCarousel.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ URL::asset('css/mediaQuery.css') }}" type="text/css" />
 
     <script type="text/javascript" src="{{ URL::asset('js/style.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('js/menu.js') }}"></script>

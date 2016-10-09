@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-                <img alt="Brand" src="{{ URL::to('images/logo.jpg') }}" style="margin-top: -4px;width: 44px">
+                <img alt="Brand" class="pull-right" src="{{ URL::to('images/logo.jpg') }}" style="margin-top: -15px;width: 60px">
 
             </a>
         </div>

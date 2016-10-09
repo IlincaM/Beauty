@@ -1,4 +1,9 @@
+ .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    height: 85px;
+
+}
 ul.sdt_menu{    
+    
 	margin:0;       
 /*	padding-top:85px;*/
 	list-style: none;
@@ -72,13 +77,13 @@ ul.sdt_menu li div.sdt_box a{
 	text-shadow:1px 1px 1px #000;
 }/*
 */ul.sdt_menu li span span.sdt_link{
-	color:#fff;
+	color: #C0C0C0;
 	font-size:24px;
 	float:left;
 	clear:both;
 }/*
 */ul.sdt_menu li span span.sdt_descr{
-	color:rgb(255, 186, 201);
+	color:white;
 	float:left;
 	clear:both;
 	width:155px; 

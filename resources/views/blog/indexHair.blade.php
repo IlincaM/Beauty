@@ -4,32 +4,27 @@
 
 
 @section('content')
-<h1 class="subtitle">Love your hair</h1>
 @foreach($posts as $post)
 @if($post["type_of_article"]===1)
- <div class="container-fluid">
-    <p></p>
-    <div class="row">
-
-        <div class="col-sm-12 col-md-12 articles">
-            <article>
-                <h2 class="text-center white">{{$post->title}}</h2>
-
-
-            </article>
-            <hr>
-            <p class="white">{{  str_limit($post->body, 270, "(...)") }} </p> 
+<div class="row">
+    <div class="  col-sm-6 pArticleBodyIndex">
+        <h2 class="h2centre">{{$post->title}}</h2> 
+        <p class="white">{{  str_limit($post->body, 300, "(...)") }}
             <a  href="{{ url('blog/'.$post->slug) }} " class="btn btn-color white  btn-sm" >Read More</a>
-        </div>
+        </p>
         
-        
-        
-        
+    </div>
+    <br>
+    <?php
+    $img = URL::asset('images/' . $post->img);
+    if ((URL::asset('images/' . $post->id . 'Index.jpg') === $img)) {
+
+    
+    ?>
+    <div class="  col-sm-6 pArticleBodyImg" >
+    <?php echo "<img src=" . $img . " class='img-responsive imgIndex'>";}?>
     </div>
 </div>
 @endif
-
-
 @endforeach
-
 @endsection

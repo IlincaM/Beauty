@@ -1,5 +1,5 @@
 
-<div class='col-xs-11 col-sm-6 forImg'>
+<div class='col-sm-6 forImg'>
     <div class="carousel">
         <ul class="carousel-indicators">
         </ul>
