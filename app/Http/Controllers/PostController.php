@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Post;
 use Session;
+use App\Services\Pagination;
 
 class PostController extends Controller {
 
@@ -16,7 +17,7 @@ class PostController extends Controller {
      */
     public function index() {
         //create a variable and store all the blog posts in it from the database
-        $posts = Post::orderBy('id', 'desc')->paginate(4);
+        $posts = Post::paginate(4);
 
         //return a view and pass in  the above variable
         return view('posts.index')->withPosts($posts);
