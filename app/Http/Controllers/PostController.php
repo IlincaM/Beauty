@@ -15,9 +15,9 @@ class PostController extends Controller {
      *
      * @return \Illuminate\Http\Response
      */
-    public function index() {
+    public function index(Request $request) {
         //create a variable and store all the blog posts in it from the database
-        $posts = Post::paginate(4);
+        $posts = Post::paginate(4)->appends($request->get('page'));
 
         //return a view and pass in  the above variable
         return view('posts.index')->withPosts($posts);
