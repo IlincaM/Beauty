@@ -16,7 +16,11 @@ class BlogController extends Controller
         //return a view and pass in  the above variable
         return view('blog.indexHair')->withPosts($posts);
     }
- public function getIndexMakeUp(){
+    /**
+     * 
+     * @return type
+     */
+    public function getIndexMakeUp(){
         //create a variable and store all the blog posts in it from the database
         $posts = Post::orderBy('id', 'desc')->paginate(2);
 
