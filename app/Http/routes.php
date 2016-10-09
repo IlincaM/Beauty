@@ -44,8 +44,8 @@ Route::group(['middleware' => 'admin'], function() {
     Route::get('comments/{id}/delete', ['uses' => 'CommentsController@delete', 'as' => 'comments.delete']);
     Route::put('comments/{id}', ['uses' => 'CommentsController@update', 'as' => 'comments.update']);
 });
-\Event::listen('Illuminate\Database\Events\QueryExecuted', function ($query) {
-    var_dump($query->sql);
-    var_dump($query->bindings);
-    var_dump($query->time);
-});
+//\Event::listen('Illuminate\Database\Events\QueryExecuted', function ($query) {
+//    var_dump($query->sql);
+//    var_dump($query->bindings);
+//    var_dump($query->time);
+//});

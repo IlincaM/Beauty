@@ -48,7 +48,5 @@
     </div>
 </div>
 </div>
-<?php 
-echo'<pre>';
-var_dump($posts)?>
+
 @endsection
