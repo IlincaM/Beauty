@@ -8,7 +8,10 @@ use App\Post;
 use Session;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;
-use Intervention\Image\Facades\Image;
+use Intervention\Image\ImageManagerStatic as Image;
+use Illuminate\Support\Facades\File;
+
+
 
 class PostController extends Controller {
 
@@ -60,10 +63,15 @@ class PostController extends Controller {
         if($request->hasFile('img')){
             $image= $request->file('img');
             $filename= $post->id."Index.".$image->clientExtension();
-            $location=public_path('images/'.$filename);
-            Image::make($image)->resize(500,187)->save($location);
+           $path = public_path('images/'.$filename);
+            Image::make($image->getRealPath())->resize(500,187)->save($path);
             $post->img=$filename;
         }
+        
+        
+        
+        
+        
          $post->save();
 
         
