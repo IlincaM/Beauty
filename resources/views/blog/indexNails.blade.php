@@ -18,12 +18,11 @@
     <br>
     <?php
     $img = URL::asset('images/' . $post->img);
-    if ((URL::asset('images/' . $post->id . 'Index.jpg') === $img)) {
 
     
     ?>
     <div class="  col-sm-6 pArticleBodyImg" >
-    <?php echo "<img src=" . $img . " class='img-responsive imgIndex'>";}?>
+    <?php echo "<img src=" . $img . " class='img-responsive imgIndex'>";?>
     </div>
 </div>
 @endif

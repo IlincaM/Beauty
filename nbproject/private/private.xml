@@ -3,10 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/beauty/resources/views/posts/create.blade.php</file>
+            <file>file:/C:/xampp/htdocs/beauty/public/images/Index.jpeg</file>
+            <file>file:/C:/xampp/htdocs/beauty/resources/views/blog/indexHair.blade.php</file>
+            <file>file:/C:/xampp/htdocs/beauty/resources/views/posts/index.blade.php</file>
             <file>file:/C:/xampp/htdocs/beauty/public/css/style.css</file>
-            <file>file:/C:/xampp/htdocs/beauty/resources/views/pages/aboutMe.blade.php</file>
-            <file>file:/C:/xampp/htdocs/beauty/resources/views/pages/welcome.blade.php</file>
-            <file>file:/C:/xampp/htdocs/beauty/resources/views/blog/single.blade.php</file>
+            <file>file:/C:/xampp/htdocs/beauty/resources/views/posts/show.blade.php</file>
+            <file>file:/C:/xampp/htdocs/beauty/app/Http/Controllers/PostController.php</file>
         </group>
     </open-files>
 </project-private>

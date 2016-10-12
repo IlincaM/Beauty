@@ -82,7 +82,7 @@ body {
     font-size: 1em;
     line-height: 1.25em;
     text-align: justify;
-
+min-height:187px;
     text-indent: 2.5em;
     background: hsla(347, 65%, 24%, 0.44);
 

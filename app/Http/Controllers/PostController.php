@@ -8,7 +8,7 @@ use App\Post;
 use Session;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;
-
+use Image;
 class PostController extends Controller {
 
     /**
@@ -54,8 +54,18 @@ class PostController extends Controller {
         $post->title = $request->title;
         $post->type_of_animation = $request->type_of_animation;
         $post->type_of_article = $request->type_of_article;
-
+        
         $post->save();
+        if($request->hasFile('img')){
+            $image= $request->file('img');
+            $filename= $post->id."Index.".$image->clientExtension();
+            $location=public_path('images/'.$filename);
+            Image::make($image)->resize(500,187)->save($location);
+            $post->img=$filename;
+        }
+         $post->save();
+
+        
         Session::flash('success', 'The artice was successfully save');
 
         //redirect to another page
@@ -73,7 +83,7 @@ class PostController extends Controller {
 
         return view('posts.show')->withPost($post);
     }
-
+    
     /**
      * Show the form for editing the specified resource.
      *
