@@ -9,6 +9,9 @@ use Session;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Image;
+use Faker\Provider\Image;
+use Intervention\Image\Facades\Image;
+
 class PostController extends Controller {
 
     /**
