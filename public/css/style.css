@@ -35,6 +35,13 @@ body {
     color: HSL(347, 65%, 23.5%);
     text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
+.titlePagePost {
+    
+    text-align: center;
+    font: 200 50px/1.3 'Great Vibes', Helvetica, sans-serif;
+    color: white;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
 .articles{
     height: 235px;
     color: #000;
@@ -66,8 +73,8 @@ body {
 }
 .pArticleBody{
     color: beige;
-    font-size: 1em;
-    line-height: 1.25em;
+    font-size: 1.1em;
+    line-height: 1.3em;
     text-align: justify;
 
     text-indent: 2.5em;
@@ -76,6 +83,7 @@ body {
     border: #aad4e5 0px;
 
 }
+
 .pArticleBodyIndex{
      top: 20px;
     color: beige;
@@ -153,6 +161,10 @@ min-height:187px;
 
 .labelColor{
        color:  white;
+
+}
+.labelColorOptions{
+       color: lightpink;
 
 }
 .white{

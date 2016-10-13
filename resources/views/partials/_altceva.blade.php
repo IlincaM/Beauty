@@ -1,5 +1,4 @@
-<div class="col-xs-11  col-sm-6 alignImg "  >
-    <img class='imgNails1' src="{{URL::asset('images/nails1_2.jpg')}} ">
+    <img class='img-responsive imgNails1' src="{{URL::asset('images/'.$post->smth)}} ">
     
 
-</div>
+

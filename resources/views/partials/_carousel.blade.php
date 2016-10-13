@@ -1,5 +1,4 @@
 
-<div class='col-sm-6 forImg'>
     <div class="carousel">
         <ul class="carousel-indicators">
         </ul>
@@ -8,4 +7,3 @@
         <a class="left prev-btn navigation-btn"></a>
         <a class="right next-btn navigation-btn"></a>
     </div>
-</div>

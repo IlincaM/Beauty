@@ -8,6 +8,9 @@
       .blog{
           padding-top: 1px;
       }
+      .imgNails1{
+    width: 100%;
+}
       
 }
 
@@ -20,7 +23,9 @@
       .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* Landscape */
@@ -32,7 +37,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -45,7 +52,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* Portrait */
@@ -57,7 +66,9 @@
       .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* Landscape */
@@ -70,7 +81,9 @@
           padding-top: 1px;
       }
       
-
+.imgNails1{
+    width: 100%;
+}
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -82,7 +95,9 @@
   and (-webkit-min-device-pixel-ratio: 2) { 
       .blog{
           padding-top: 1px;
-      
+      .imgNails1{
+    width: 100%;
+}
 
 }
 
@@ -95,7 +110,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* Landscape */
@@ -107,7 +124,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* ----------- iPhone 6+ ----------- */
@@ -120,7 +139,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* Portrait */
@@ -132,7 +153,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* Landscape */
@@ -144,7 +167,9 @@
 .blog{
           padding-top: 1px;
       }
-     
+     .imgNails1{
+    width: 100%;
+}
 }
 /* ----------- Galaxy S3 ----------- */
 
@@ -157,7 +182,9 @@
           padding-top: 1px;
       }
       
-
+.imgNails1{
+    width: 100%;
+}
 }
 
 /* Portrait */
@@ -170,7 +197,9 @@
           padding-top: 1px;
       }
       
-
+.imgNails1{
+    width: 100%;
+}
 }
 
 /* Landscape */
@@ -182,7 +211,9 @@
       .blog{
           padding-top: 1px;
       }
-     
+     .imgNails1{
+    width: 100%;
+}
 
 }
 
@@ -196,7 +227,9 @@
       .blog{
           padding-top: 1px;
       }
-
+.imgNails1{
+    width: 100%;
+}
 }
 
 /* Portrait */
@@ -208,7 +241,9 @@
       .blog{
           padding-top: 1px;
       }
-
+.imgNails1{
+    width: 100%;
+}
 }
 
 /* Landscape */
@@ -220,7 +255,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* ----------- Galaxy S5 ----------- */
@@ -233,7 +270,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+      .imgNails1{
+    width: 100%;
+}
 }
 
 /* Portrait */
@@ -245,7 +284,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+ .imgNails1{
+    width: 100%;
+}     
 }
 
 /* Landscape */
@@ -257,7 +298,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+ .imgNails1{
+    width: 100%;
+}     
 }
 /* ----------- HTC One ----------- */
 
@@ -269,7 +312,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+     .imgNails1{
+    width: 100%;
+} 
 }
 
 /* Portrait */
@@ -281,7 +326,9 @@
 .blog{
           padding-top: 1px;
       }
-      
+ .imgNails1{
+    width: 100%;
+}     
 }
 
 /* Landscape */
@@ -293,5 +340,7 @@
 .blog{
           padding-top: 1px;
       }
-     
+ .imgNails1{
+    width: 100%;
+}    
 }

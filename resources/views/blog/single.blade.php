@@ -6,37 +6,74 @@
 @section('content')
 <input type="hidden" name="post" value="post{{$post->id}}">
 <div class="row">
-    <div class="col-xs-11  col-sm-6 pArticleBody">
-            <h2>{{$post->title}}</h2> 
+    <div class="col-md-12">
+        <h1 class="text-center titlePagePost ">{{$post->title}}</h1>
+        <div style="float: right; padding: 1em; padding-bottom: 0.1em; width: 25%; ">
+
+            @if($post->type_of_animation===1)
+            @include('partials._carousel')
+
+            <script>
+                var imgName = <?php echo $post->id; ?>
+            </script>
+            <script type="text/javascript" src=" {{ URL::asset('../public/js/carousel.js') }}"></script>
+
+
+            @elseif($post->type_of_animation===2)
+            @include('partials._youtube')
+            {{$video=$post->video}}
+            @else($post->type_of_animation===3)
+            @include('partials._altceva')
+            @endif
+
+        </div>
+
+        <p class="text-justify pArticleBody">
             {{$post->body}}
-
-  </div>
-    <!-- Add clearfix for only the required viewport -->
-      <div class="clearfix visible-xs"></div>
-@if($post->type_of_animation===1)
-@include('partials._carousel')
-<script>
-
-    var imgName = <?php echo $post->id; ?>
-
-</script>
-
-<script type="text/javascript" src=" {{ URL::asset('../public/js/carousel.js') }}"></script>
-
-@elseif($post->type_of_animation===2)
-@include('partials._youtube')
-{{$video=$post->video}}
-<!--<script>
-
-    var youtube = {{$video}}
-
-</script>-->
-<script type="text/javascript" src=" {{ URL::asset('../public/js/youtube.js') }}"></script>
-@else($post->type_of_animation===3)
-@include('partials._altceva')
+        </p>
 
 
-@endif
+    </div>
+
+
+
+
+
+    <!--    <div class="col-xs-11  col-sm-6 pArticleBody">
+                <h2>{{$post->title}}</h2> 
+                {{$post->body}}
+    
+      </div>
+         Add clearfix for only the required viewport 
+          <div class="clearfix visible-xs"></div>
+    @if($post->type_of_animation===1)
+    <div class='col-sm-6 forImg'>
+    @include('partials._carousel')
+    <script>
+    
+        var imgName = <?php echo $post->id; ?>
+    
+    </script>
+    
+    <script type="text/javascript" src=" {{ URL::asset('../public/js/carousel.js') }}"></script>
+    </div>
+    @elseif($post->type_of_animation===2)
+    <div></div>
+    @include('partials._youtube')
+    {{$video=$post->video}}
+    <script>
+    
+        var youtube = {{$video}}
+    
+    </script>
+    <script type="text/javascript" src=" {{ URL::asset('../public/js/youtube.js') }}"></script>
+    
+    @else($post->type_of_animation===3)
+    <div class="col-xs-11  col-sm-6 alignImg ">
+    @include('partials._altceva')
+    </div>
+    
+    @endif-->
 
 
 
@@ -49,8 +86,8 @@
 <div class="row">
     <div class="col-md-8 col-md-offset-2">
         <h3><strong>Comment section</strong></h3>
-         <h4 class="comment-count">Currently : {{ $post->comments()->count() }}
-             <span class="glyphicon glyphicon-comment"></span></h4>
+        <h4 class="comment-count">Currently : {{ $post->comments()->count() }}
+            <span class="glyphicon glyphicon-comment"></span></h4>
         @foreach($post->comments as $comment)
         <div class="comment wrappersC">
             <div class="author-info">
