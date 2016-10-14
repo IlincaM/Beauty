@@ -2,415 +2,744 @@
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-      .blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 50%;
-}
-      
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .blog{
+        padding-top: 1px;
+    }
+    .imgNails1{
+        width: 100%;
+    }
+    .forImg{
+        width: 100%;
+    }
+    .navigation-btn.left{
+        width: 20px;
+        height: 10px;
+    }
+    .navigation-btn.right{
+        width: 20px;
+        height: 10px;
+    }
+    .carousel-indicators li {
+
+        height:10px;
+        width:12px;
+
+    }
 }
 
 /* Portrait */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-      .blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 50%;
-}
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .blog{
+        padding-top: 1px;
+    }
+    .imgNails1{
+        width: 100%;
+    }
+    .forImg{
+        width: 100%;
+    }
+    .navigation-btn.left{
+        width: 20px;
+        height: 10px;
+    }
+    .navigation-btn.right{
+        width: 20px;
+        height: 10px;
+    }
+    .carousel-indicators li {
+
+        height:10px;
+        width:12px;
+
+    }
 }
 
 /* Landscape */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-.blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 50%;
-}
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .blog{
+        padding-top: 1px;
+    }
+    .imgNails1{
+        width: 100%;
+    }
+    .forImg{
+        width: 100%;
+    }
+    .navigation-btn.right{
+        width: 20px;
+        height: 10px;
+    }
+    .navigation-btn.left{
+        width: 20px;
+        height: 10px;
+    }
+    .carousel-indicators li {
+
+        height:10px;
+        width:12px;
+
+    }
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-.blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 50%;
-}
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .blog{
+        padding-top: 1px;
+    }
+    .imgNails1{
+        width: 100%;
+    }
+    .forImg{
+        width: 100%;
+    }
+    .navigation-btn.left{
+        width: 20px;
+        height: 10px;
+    }
+    .navigation-btn.right{
+        width: 20px;
+        height: 10px;
+    }
+    .carousel-indicators li {
+
+        height:10px;
+        width:12px;
+
+    }
 }
 
 /* Portrait */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-      .blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 50%;
-}
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .blog{
+        padding-top: 1px;
+    }
+    .imgNails1{
+        width: 100%;
+    }
+    .forImg{
+        width: 100%;
+    }
+    .navigation-btn.left{
+        width: 20px;
+        height: 10px;
+    }
+    .navigation-btn.right{
+        width: 20px;
+        height: 10px;
+    }
+    .carousel-indicators li {
+
+        height:10px;
+        width:12px;
+
+    }
 }
 
 /* Landscape */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-      .blog{
-          padding-top: 1px;
-      }
-      
-.imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 50%;
-}
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    .blog{
+        padding-top: 1px;
+    }
+
+    .imgNails1{
+        width: 100%;
+    }
+    .forImg{
+        width: 100%;
+    }
+    .navigation-btn.left{
+        width: 20px;
+        height: 10px;
+    }
+    .navigation-btn.right{
+        width: 20px;
+        height: 10px;
+    }
+    .carousel-indicators li {
+
+        height:10px;
+        width:12px;
+
+    }
 }
 
 /* ----------- iPhone 6 ----------- */
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-      .blog{
-          padding-top: 1px;
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 50%;
-}
-}
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    .blog{
+        padding-top: 1px;
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+    }
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-.blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+    /* Portrait */
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-.blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+            height:10px;
+            width:12px;
 
-/* ----------- iPhone 6+ ----------- */
+        }
+    }
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-.blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+    /* Landscape */
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) { 
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
 
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-.blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+            height:10px;
+            width:12px;
 
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-.blog{
-          padding-top: 1px;
-      }
-     .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
-/* ----------- Galaxy S3 ----------- */
+        }
+    }
 
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
-      .blog{
-          padding-top: 1px;
-      }
-      
-.imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+    /* ----------- iPhone 6+ ----------- */
 
-/* Portrait */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
-  and (orientation: portrait) {
-      .blog{
-          padding-top: 1px;
-      }
-      
-.imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+    /* Portrait and Landscape */
+    @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
 
-/* Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
-  and (orientation: landscape) {
-      .blog{
-          padding-top: 1px;
-      }
-     .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+            height:10px;
+            width:12px;
 
-/* ----------- Galaxy S4 ----------- */
+        }
+    }
 
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-      .blog{
-          padding-top: 1px;
-      }
-.imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+    /* Portrait */
+    @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
 
-/* Portrait */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: portrait) {
-      .blog{
-          padding-top: 1px;
-      }
-.imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+            height:10px;
+            width:12px;
 
-/* Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: landscape) {
-.blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+        }
+    }
 
-/* ----------- Galaxy S5 ----------- */
+    /* Landscape */
+    @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
 
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-.blog{
-          padding-top: 1px;
-      }
-      .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+            height:10px;
+            width:12px;
 
-/* Portrait */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: portrait) {
-.blog{
-          padding-top: 1px;
-      }
- .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+        }
+    }
+    /* ----------- Galaxy S3 ----------- */
 
-/* Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: landscape) {
-.blog{
-          padding-top: 1px;
-      }
- .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
-/* ----------- HTC One ----------- */
+    /* Portrait and Landscape */
+    @media screen 
+    and (device-width: 320px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 2) {
+        .blog{
+            padding-top: 1px;
+        }
 
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-.blog{
-          padding-top: 1px;
-      }
-     .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
 
-/* Portrait */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: portrait) {
-.blog{
-          padding-top: 1px;
-      }
- .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+            height:10px;
+            width:12px;
 
-/* Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: landscape) {
-.blog{
-          padding-top: 1px;
-      }
- .imgNails1{
-    width: 100%;
-}
-.forImg{
-    width: 100%;
-}
-}
+        }
+    }
+
+    /* Portrait */
+    @media screen 
+    and (device-width: 320px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) {
+        .blog{
+            padding-top: 1px;
+        }
+
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+
+    /* Landscape */
+    @media screen 
+    and (device-width: 320px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: landscape) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+
+    /* ----------- Galaxy S4 ----------- */
+
+    /* Portrait and Landscape */
+    @media screen 
+    and (device-width: 320px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+
+    /* Portrait */
+    @media screen 
+    and (device-width: 320px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    and (orientation: portrait) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+
+    /* Landscape */
+    @media screen 
+    and (device-width: 320px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    and (orientation: landscape) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+
+    /* ----------- Galaxy S5 ----------- */
+
+    /* Portrait and Landscape */
+    @media screen 
+    and (device-width: 360px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+
+    /* Portrait */
+    @media screen 
+    and (device-width: 360px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    and (orientation: portrait) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+
+    /* Landscape */
+    @media screen 
+    and (device-width: 360px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    and (orientation: landscape) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+    /* ----------- HTC One ----------- */
+
+    /* Portrait and Landscape */
+    @media screen 
+    and (device-width: 360px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+
+    /* Portrait */
+    @media screen 
+    and (device-width: 360px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    and (orientation: portrait) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
+
+    /* Landscape */
+    @media screen 
+    and (device-width: 360px) 
+    and (device-height: 640px) 
+    and (-webkit-device-pixel-ratio: 3) 
+    and (orientation: landscape) {
+        .blog{
+            padding-top: 1px;
+        }
+        .imgNails1{
+            width: 100%;
+        }
+        .forImg{
+            width: 100%;
+        }
+        .navigation-btn.left{
+            width: 20px;
+            height: 10px;
+        }
+        .navigation-btn.right{
+            width: 20px;
+            height: 10px;
+        }
+        .carousel-indicators li {
+
+            height:10px;
+            width:12px;
+
+        }
+    }
