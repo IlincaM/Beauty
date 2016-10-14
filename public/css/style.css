@@ -28,6 +28,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.forImg{
+    width: 30%;
+}
 .titlePage {
     
     text-align: center;

@@ -11,6 +11,9 @@
       .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
       
 }
 
@@ -26,6 +29,9 @@
       .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Landscape */
@@ -39,6 +45,9 @@
       }
       .imgNails1{
     width: 100%;
+}
+.forImg{
+    width: 50%;
 }
 }
 
@@ -55,6 +64,9 @@
       .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Portrait */
@@ -68,6 +80,9 @@
       }
       .imgNails1{
     width: 100%;
+}
+.forImg{
+    width: 50%;
 }
 }
 
@@ -84,6 +99,9 @@
 .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -98,7 +116,9 @@
       .imgNails1{
     width: 100%;
 }
-
+.forImg{
+    width: 50%;
+}
 }
 
 /* Portrait */
@@ -113,6 +133,9 @@
       .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Landscape */
@@ -126,6 +149,9 @@
       }
       .imgNails1{
     width: 100%;
+}
+.forImg{
+    width: 50%;
 }
 }
 
@@ -142,6 +168,9 @@
       .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Portrait */
@@ -156,6 +185,9 @@
       .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Landscape */
@@ -169,6 +201,9 @@
       }
      .imgNails1{
     width: 100%;
+}
+.forImg{
+    width: 50%;
 }
 }
 /* ----------- Galaxy S3 ----------- */
@@ -185,6 +220,9 @@
 .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Portrait */
@@ -200,6 +238,9 @@
 .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Landscape */
@@ -214,7 +255,9 @@
      .imgNails1{
     width: 100%;
 }
-
+.forImg{
+    width: 50%;
+}
 }
 
 /* ----------- Galaxy S4 ----------- */
@@ -230,6 +273,9 @@
 .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Portrait */
@@ -244,6 +290,9 @@
 .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Landscape */
@@ -257,6 +306,9 @@
       }
       .imgNails1{
     width: 100%;
+}
+.forImg{
+    width: 50%;
 }
 }
 
@@ -273,6 +325,9 @@
       .imgNails1{
     width: 100%;
 }
+.forImg{
+    width: 50%;
+}
 }
 
 /* Portrait */
@@ -286,7 +341,10 @@
       }
  .imgNails1{
     width: 100%;
-}     
+}
+.forImg{
+    width: 50%;
+}
 }
 
 /* Landscape */
@@ -300,7 +358,10 @@
       }
  .imgNails1{
     width: 100%;
-}     
+}
+.forImg{
+    width: 50%;
+}
 }
 /* ----------- HTC One ----------- */
 
@@ -314,7 +375,10 @@
       }
      .imgNails1{
     width: 100%;
-} 
+}
+.forImg{
+    width: 50%;
+}
 }
 
 /* Portrait */
@@ -328,7 +392,10 @@
       }
  .imgNails1{
     width: 100%;
-}     
+}
+.forImg{
+    width: 50%;
+}
 }
 
 /* Landscape */
@@ -342,5 +409,8 @@
       }
  .imgNails1{
     width: 100%;
-}    
+}
+.forImg{
+    width: 50%;
+}
 }

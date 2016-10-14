@@ -8,7 +8,7 @@
 <div class="row">
     <div class="col-md-12">
         <h1 class="text-center titlePagePost ">{{$post->title}}</h1>
-        <div style="float: right; padding: 1em; padding-bottom: 0.1em; width: 25%; ">
+        <div class="forImg" style="float: right; padding: 1em; padding-bottom: 0.1em;">
 
             @if($post->type_of_animation===1)
             @include('partials._carousel')
